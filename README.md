@@ -4,20 +4,20 @@ Welcome to the Phonebook Project! This is a full-stack web application built usi
 
 🛠️ Technologies Used
 
-	•	Backend:
-	•	Express.js: A minimal and flexible Node.js web application framework.
-	•	Mongoose: Elegant MongoDB object modeling for Node.js.
-	•	CORS: A node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
-	•	Frontend:
-	•	React.js: A JavaScript library for building user interfaces.
-	•	Tailwind CSS: A utility-first CSS framework for rapid UI development.
+    •	Backend:
+    •	Express.js: A minimal and flexible Node.js web application framework.
+    •	Mongoose: Elegant MongoDB object modeling for Node.js.
+    •	CORS: A node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+    •	Frontend:
+    •	React.js: A JavaScript library for building user interfaces.
+    •	Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
 🌟 Features
 
-	•	Add, edit, and delete contacts.
-	•	Search contacts by name.
-	•	Responsive design with Tailwind CSS.
-	•	RESTful API for managing contacts.
+    •	Add, edit, and delete contacts.
+    •	Search contacts by name.
+    •	Responsive design with Tailwind CSS.
+    •	RESTful API for managing contacts.
 
 🚀 Getting Started
 
@@ -25,30 +25,29 @@ Prerequisites
 
 Ensure you have the following installed on your local machine:
 
-	•	Node.js
-	•	npm or yarn
-	•	MongoDB
+    •	Node.js
+    •	npm or yarn
+    •	MongoDB
 
 Installation
 
-# Clone repository: 
+# Clone repository:
 
- git clone https://github.com/Shentia/PhoneBook-MERN.git
- 
-  cd phonebook-project
+git clone https://github.com/Shentia/PhoneBook-MERN.git
 
-# Backend Setup: 
+cd phonebook-project
 
- cd server
- 
+# Backend Setup:
+
+cd server
+
 npm install
 
-# Frontend Setup: 
+# Frontend Setup:
 
- cd client
- 
+cd client
+
 npm install
-
 
 🤝 Contributing
 

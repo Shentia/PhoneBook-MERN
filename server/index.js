@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 8080;
 const phonebookSchema = new mongoose.Schema(
   {
     name: String,
-    mobile: Number,
+    phoneNumber: String,
     email: String,
   },
   { timestamps: true }
@@ -29,10 +29,10 @@ app.get("/", async (req, res) => {
 
 //Create Data || save data in mongoDB
 app.post("/create", async (req, res) => {
-  const { name, mobile, email } = req.body;
+  const { name, phoneNumber, email } = req.body;
   const data = new userPhonebook({
     name,
-    mobile,
+    phoneNumber,
     email,
   });
   await data.save();
@@ -41,13 +41,13 @@ app.post("/create", async (req, res) => {
 
 //Update Data
 app.put("/update/:id", async (req, res) => {
-  const { name, mobile, email } = req.body;
+  const { name, phoneNumber, email } = req.body;
   const data = await userPhonebook
     .findByIdAndUpdate(
       { _id: req.params.id },
       {
         name,
-        mobile,
+        phoneNumber,
         email,
       },
       { new: true }
