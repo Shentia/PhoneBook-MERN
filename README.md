@@ -1,6 +1,8 @@
 📞 Phonebook Project
 
 Welcome to the Phonebook Project! This is a full-stack web application built using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js. The application allows users to manage their contacts efficiently and stylishly.
+<img width="1448" alt="Screenshot 2024-06-12 at 9 46 16 PM" src="https://github.com/Shentia/PhoneBook-MERN/assets/19757691/39b75ee7-3e8d-4ccb-a656-6b4cba557732">
+
 
 🛠️ Technologies Used
 
